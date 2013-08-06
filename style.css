@@ -1,45 +1,132 @@
+//* css reset */
+
 body, html {
-    margin:0;
-    padding:0;
+	padding: 0;
+	margin: 0;
+}
+
+/*header footer styling*/
+
+body{
+background-color: greenyellow;
 }
 
 #header, #footer {
     width:100%;
-    border: 1px solid red;
 }
 
 #footer {
-    position:fixed;
+    position:absolute;
+    background-color:red;
     bottom: 0;
-    z-index: 999999;
+    height: 100px;
+    text-align: center;
 }
+
+#header{
+    height: 50px;
+    position:fixed;
+    background-color:red;
+}
+
+/*container styling*/
 
 #container {
     position: relative;
     border: 1px solid yellow;
-    height: auto; 
+    height: 1600px; 
 }
 
 .slideshow{
     position: relative;
+    top:49px;
     border:1px solid blue;
-    height: 100px;
-    width: 200px;
+    height: 300px;
+    width: 850px;
     margin: 0 auto;
 }
 
 .main {
     position: relative;
+    top: 200px;
+    left: 250px;
     border:1px solid blue;
-    width: 300px;
-    height: 100px;
+    width: 400px;
+    height: 200px;
+    text-align:center;
+}
 
+.main h1 {
+float:left;
 }
 
 .secondary {
-    
+    position:relative;
+    top:-2px;
+    left: 700px;
     border: 1px solid blue;
-    width: 290px;
-    height:190px;
-    
+    width: 400px;
+    height:200px;
+}
+
+
+.rep1 {
+    position:relative;
+    top: 290px;
+    left: 300px;
+    border:1px solid blue;
+    width:150px;
+    height: 150px;
+}
+
+.rep2 {
+    position:relative;
+    top: 140px;
+    left:580px;
+    border:1px solid blue;
+    width:150px;
+    height: 150px;
+}
+
+.rep3 {
+    position:relative;
+    top: -12px;
+    left:850px;
+    border:1px solid blue;
+    width:150px;
+    height: 150px;
+}
+
+/*navigation styling*/
+
+
+#header #nav ul li{
+    list-style-type:none;
+    display:inline;
+    padding: 10px;
+    position: relative;
+    left: 900px;
+    top: 30px;
+    font-family: georgia;
+}
+
+#header #nav ul{
+    display:inline;
+}
+
+#header #nav ul li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#header #nav ul li a:visited {
+    color: white;
+}
+
+#header #nav ul li a:hover {
+    color: #0DFFB4;
+}
+
+#header #nav ul li a:active }
+    color: #0DFFB4;
 }
