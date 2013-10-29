@@ -1,0 +1,165 @@
+/* css reset */
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+/*==================Global variables========================== */
+
+h2 {
+    color: #E4326D;
+}
+
+p {
+    color: #57000D;
+}
+
+img {
+    border: 3px solid black;
+}
+
+
+
+
+
+/* ==================HEADER AND FOOTER STYLING===============*/
+
+
+#header, #footer {
+    width: 100%;
+    background-color:#690800;
+    height: 100px;
+}
+
+#header p {
+	margin-top:0px;
+	position:relative;
+
+}
+
+#footer {
+    position:relative;
+    bottom:0;
+    z-index: 999999;
+}
+
+#footer p {
+    color: white;
+}
+
+.logo{
+    color:white;
+}
+
+/* ================END OF HEADER AND FOOTER STYLING===================== */
+
+
+
+/* ==========NAVIGATION STYLING================ */
+
+#header #nav ul li{
+    list-style-type:none;
+    display:inline;
+    padding: 15px;
+    position: relative;
+    font-family: Arial;
+    font-size:100%;
+  	top: 30px;
+  	float: right;
+}
+
+#header #nav ul{
+    display:inline;
+}
+
+#header #nav ul li a:link {
+    text-decoration: none;
+    color: white;
+}
+
+#header #nav ul li a:visited {
+    color: yellow;
+}
+
+#header #nav ul li a:hover {
+    background-color: white;
+}
+
+/* =================END OF NAVIGATION STYLING================*/
+
+
+
+
+/* ===============CONTAINER STYLING================= */
+
+.empty{
+    height: 100px;
+}
+
+body{
+    background-color: white;
+}
+
+.text-2 {
+    float: right;
+    list-style-type: none;
+}
+
+.sisterlocks {
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+
+.sisterlocks3 {
+    float: left;
+    height: 300px;
+    width: 300px;
+}
+
+.sisterlocks2 {
+    float: right;
+    height: 300px;
+    width: 300px;
+}
+
+.contactform{
+    position: relative;
+    margin: 0 auto;
+
+}
+
+.button{
+    position: relative;
+    top:20px;
+    left: 200px;
+    background-color: red;
+    width: 150px;
+}
+
+ .singleobject{
+    position: relative;
+    top: 20px;
+    height: 290px;
+    
+   
+}
+
+.contact-text {
+    position:relative;
+    top: 20px;
+    height:425px;
+    
+
+}
+
+.photos-2006 {
+    height: 425px;
+}
+
+
+
+/* ==========END OF CONTAINER STYLING================ */
+

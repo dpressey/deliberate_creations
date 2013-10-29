@@ -1,0 +1,159 @@
+/* css reset */
+
+body, html {
+	padding: 0;
+	margin: 0;
+}
+
+/*header footer styling*/
+
+body{
+background-color: #FFD6C7;
+}
+
+#header, #footer {
+    width:100%;
+    background-color:#FF1923;
+    height: 100px;
+}
+
+#footer {
+    position:absolute;
+    bottom: 0;
+    text-align: center;
+}
+
+#header p {
+position:relative;
+top: 20px;
+margin:0;
+font-size: 300%;
+font-family: script;
+
+}
+
+/*container styling*/
+
+#container {
+    position: relative;
+    height: 1800px; 
+}
+
+.slideshow{
+    position: relative;
+    top:5px;
+    border:2px solid black;
+    height: 300px;
+    width: 850px;
+    margin: 0 auto;
+}
+
+.text-1 {
+    position: relative;
+    top: 140px;
+    left: 250px;
+    border:1px ;
+    width: 400px;
+    height: 300px;
+    text-align:center;
+    color:#7F0006;
+}
+
+p{
+  line-height: 140%;
+  font-family: arial;  
+}
+
+h1{
+font-family: dream;
+color:black;
+}
+
+
+.text-2 {
+    position:relative;
+    top:260px;
+    left: 700px;
+    border: 1px;
+    width: 400px;
+    height:300px;
+    color:#7F0006;
+    text-align:center;
+}
+
+
+.text-3 {
+    position:relative;
+    top: 290px;
+    left: 300px;
+    border:1px solid black;
+    width:150px;
+    height: 150px;
+    text-align:center;
+}
+
+
+/*navigation styling*/
+
+
+#header #nav ul li{
+    list-style-type:none;
+    display:inline;
+    padding: 25px;
+    position: relative;
+    left: 900px;
+    top: 10px;
+    font-family: Arial;
+    font-size:100%
+}
+
+#header #nav ul{
+    display:inline;
+}
+
+#header #nav ul li a:link {
+    text-decoration: none;
+    color: black;
+}
+
+#header #nav ul li a:visited {
+    color: black;
+}
+
+#header #nav ul li a:hover {
+    background-color: yellow;
+}
+
+
+/*photo styling*/
+
+.photos{
+	display: none;
+	height: 200px;
+	width: 200px;
+}
+
+.photos-2006 {
+	position: relative;
+	top: 100px;
+	left: 350px;
+}
+
+
+
+/*font declarations*/
+
+@font-face {
+	font-family: script;
+	src: url(Gabrielle.ttf);
+}
+
+@font-face {
+	font-family: caviar;
+	src:url(CaviarDreams.ttf);
+}
+
+@font-face {
+    font-family:dream;
+    src:url('dream orphans.ttf');
+}
