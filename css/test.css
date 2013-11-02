@@ -16,8 +16,23 @@ p {
 }
 
 img {
-    border: 3px solid black;
+    border: 2px solid #E4326D;
 }
+
+label {
+    color: #57000D;
+}
+
+@font-face {
+    font-family: 'Lighthouse';
+    src: url('Lighthouse.ttf');
+    
+}
+
+/*div {
+    border: 1px solid black;
+}*/
+
 
 
 
@@ -28,7 +43,7 @@ img {
 
 #header, #footer {
     width: 100%;
-    background-color:#690800;
+    background-color:#6E0000;
     height: 100px;
 }
 
@@ -49,8 +64,11 @@ img {
 }
 
 .logo{
-    color:white;
-}
+    color: white;
+    font-family: 'Lighthouse';
+    font-size: 35px;
+    top: 20px;
+ }   
 
 /* ================END OF HEADER AND FOOTER STYLING===================== */
 
@@ -58,33 +76,29 @@ img {
 
 /* ==========NAVIGATION STYLING================ */
 
-#header #nav ul li{
+#header ul li{
     list-style-type:none;
     display:inline;
-    padding: 15px;
+    padding: 6px;
+    width: 80px;
     position: relative;
-    font-family: Arial;
     font-size:100%;
-  	top: 30px;
-  	float: right;
+    float: right;
 }
 
-#header #nav ul{
+#header  ul{
     display:inline;
 }
 
-#header #nav ul li a:link {
+#header ul li a:link {
     text-decoration: none;
-    color: white;
+    color: #00FF48;
 }
 
-#header #nav ul li a:visited {
-    color: yellow;
+#header ul li a:visited {
+    color: #00FF48;
 }
 
-#header #nav ul li a:hover {
-    background-color: white;
-}
 
 /* =================END OF NAVIGATION STYLING================*/
 
@@ -128,14 +142,16 @@ body{
 .contactform{
     position: relative;
     margin: 0 auto;
+    
 
 }
 
 .button{
     position: relative;
+    border: none;
     top:20px;
     left: 200px;
-    background-color: red;
+    background: #FF520D;
     width: 150px;
 }
 
@@ -151,13 +167,26 @@ body{
     position:relative;
     top: 20px;
     height:425px;
-    
+}
 
+.photos li {
+    list-style-type: none;
+    display: none;
+   
 }
 
 .photos-2006 {
-    height: 425px;
+    height: 460px;
 }
+
+#button-2006 {
+    background-color: blue;
+    border: none;
+    height: 30px;
+
+}
+
+
 
 
 
