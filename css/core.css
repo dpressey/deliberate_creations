@@ -1,0 +1,22 @@
+header {
+	border: 2px solid black;
+}
+
+#slideshow {
+	position: relative;
+	top: 50px;
+	left: 25%;
+	border: 1px solid black; 
+}
+
+.grid_3 {
+	position: relative;
+	top: 60px;
+	left: 25%;
+}
+
+footer {
+	position: relative;
+	bottom: 0;
+	z-index: 999999px;
+}
