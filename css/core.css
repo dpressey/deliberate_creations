@@ -1,5 +1,7 @@
-header {
-	border: 2px solid black;
+header nav ul li{
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
 }
 
 #slideshow {
@@ -9,7 +11,20 @@ header {
 	border: 1px solid black; 
 }
 
-.grid_3 {
+.portfolio img{
+	width: 350px;
+	height:200px;
+	border: 2px solid black;
+	top: 30px;
+}
+
+.portfolio .grid_3{
+	position: relative;
+	left: 10%;
+
+}
+
+.article {
 	position: relative;
 	top: 60px;
 	left: 25%;
